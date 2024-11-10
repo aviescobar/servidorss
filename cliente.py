@@ -34,3 +34,4 @@ try:
 except Exception as e:
    print(f"Ocurrió un error: {e}")
 finally:
+   client_socket.close()
