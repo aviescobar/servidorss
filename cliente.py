@@ -15,3 +15,5 @@ try:
    while True:
       # Capturar pantalla
       screenshot = pyautogui.screenshot()
+
+      # Convertir la imagen a bytes
