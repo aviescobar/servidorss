@@ -20,3 +20,6 @@ try:
       img_bytes = io.BytesIO()
        screenshot.save(img_bytes, format="JPEG")
       img_data = img_bytes.getvalue()
+
+
+       # Enviar el tamaño de la imagen
