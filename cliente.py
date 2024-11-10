@@ -25,3 +25,6 @@ try:
        # Enviar el tamaño de la imagen
       data_size = len(img_data)
       client_socket.sendall(data_size.to_bytes(8, 'big'))
+
+
+      # Enviar la imagen en bytes
