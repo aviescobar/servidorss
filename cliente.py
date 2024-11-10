@@ -13,3 +13,4 @@ client_socket.connect((server_ip, server_port))
 
 try:
    while True:
+      # Capturar pantalla
