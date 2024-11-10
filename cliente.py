@@ -23,3 +23,4 @@ try:
 
 
        # Enviar el tamaño de la imagen
+      data_size = len(img_data)
