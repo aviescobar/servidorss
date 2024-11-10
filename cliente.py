@@ -17,3 +17,4 @@ try:
       screenshot = pyautogui.screenshot()
 
       # Convertir la imagen a bytes
+img_bytes = io.BytesIO()
