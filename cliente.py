@@ -6,3 +6,4 @@ import time
 
 # Configuramos el cliente
 server_ip = "172.168.2.25"  # Cambia a la IP del servidor
+server_port = 12345
