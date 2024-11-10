@@ -29,3 +29,4 @@ try:
 
       # Enviar la imagen en bytes
       client_socket.sendall(img_data)
+      # Esperar unos segundos antes de la siguiente captura
