@@ -33,3 +33,4 @@ try:
       time.sleep(2)  # Captura cada 2 segundos
 except Exception as e:
    print(f"Ocurrió un error: {e}")
+finally:
